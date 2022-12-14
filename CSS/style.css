@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee&family=Bungee+Shade&family=Fira+Code:wght@600&family=Fredoka:wght@300&family=Josefin+Sans&family=Montserrat:wght@500&display=swap'); 
+/*
+font-family: 'Bungee', cursive;
+font-family: 'Bungee Shade', cursive;
+font-family: 'Fira Code', monospace;
+font-family: 'Fredoka', sans-serif;
+font-family: 'Josefin Sans', sans-serif;
+font-family: 'Montserrat', sans-serif;
+*/
+
+.card-img {
+    width: 100%;
+    height: 200px;
+    max-height: 200px;
+  }
+
+.intro-para h3 {
+    font-family: 'Bungee', cursive;
+    color: rgb(32, 112, 112);
+   text-align: center;
+   line-height: 1.5em;
+}
+.intro-para {
+    background-color: rgb(165, 222, 247);
+    padding: 3%;
+}
+.intro-para h1 {
+    color: rgb(4, 4, 67);
+}

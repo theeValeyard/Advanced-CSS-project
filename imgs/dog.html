@@ -5,9 +5,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Bungee&family=Bungee+Shade&family=Fira+Code:wght@600&family=Fredoka:wght@300&family=Josefin+Sans&family=Montserrat:wght@500&display=swap" rel="stylesheet">
-
     <title>Website of Random Things</title>
 </head>
 <body>
@@ -32,25 +29,16 @@
          </div>
          </div><!-- container -->
      </nav><!-- nav -->
-
-     <div class="container-fluid mb-3 pb-2 px-0">
-        <img src="imgs/VitruvianBanner.png" alt="site banner" style="width: 100%; height: 70%;">
-     </div>
       <!--****************************** Nav ******************************-->
-     <div class="container">
-        <div class="row bg-light justify-content-center bg-secondary">
-            <div class="intro-para">
-            <h1 class=" display-4 pb-3"
-            style="font-family: 'Bungee Shade', cursive;">
-            The Website of Many Things</h1>
-            <h3 >This is a website of many things, which is basically a tainted little portal (so, extreamly biased) into my childhood and the things I did. I'm not the sharpest crayon in the room by any means, but I atlease never ate them, so that should say something. I wrote these articles when I had a crazy hyperfixation on writing for the web. They are not particularly great, and frankly, they are more cringy than I care to admit. But this is something that led me where I am today, so I think it's not all bad. 
-                <p>(P.S. Even if you think it is, please don't tell me that.)</p>
-            </h3>
-        </div>
-        </div><!--row-->
-     </div><!--container-->
-
-     <div class="container mt-5" id="new-posts">
+      <style>
+        .card-img {
+          width: 100%;
+          height: 200px;
+          max-height: 200px;
+        }
+      </style>
+    
+      <div class="container mt-5" id="new-posts">
         <div class="row">
           <section class="col-sm-6 col-md-4 col-lg-3 col-xl-2">
             <img class="card-img" src="images/image.png" alt="sample image">
@@ -72,9 +60,19 @@
             <h4>Nutrition</h4>
             <p>Let our nutrition experts review your pet's diet and prescribe a custom nutrition plan for optimum health and disease prevention.</p>
           </section>
-          
+          <section class="col-sm-6 col-md-4 col-lg-3 col-xl-2">
+            <img class="card-img" src="images/image.png" alt="sample image">
+            <h4>Pest Control</h4>
+            <p>We offer the latest advances in safe and effective prevention and treatment of fleas, ticks, worms, heart worm, and other parasites.</p>
+          </section>
+          <section class="col-sm-6 col-md-4 col-lg-3 col-xl-2">
+            <img class="card-img" src="images/image.png" alt="sample image">
+            <h4>Vaccinations</h4>
+            <p>Our veterinarians are experienced in modern vaccination protocols that prevent many of the deadliest diseases in pets.</p>
+          </section>
         </div><!-- row -->
     </div><!-- container -->
+    
     <script src="js/jquery.slim.min.js"></script>
     <script src="js/popper.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
