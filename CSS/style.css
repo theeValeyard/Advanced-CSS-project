@@ -31,3 +31,19 @@ body {
 .intro-para h1 {
     color: rgb(4, 4, 67);
 }
+
+/******************************************************* Dog Stuff *************************************************************/
+
+.gallary {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: .5em;
+    grid-auto-flow: row dense;
+    justify-content: space-around;
+}
+
+.dog-imgs {
+    width: 100%;
+    height: 100%;
+    border: 2px solid rgb(255, 227, 227);
+}
