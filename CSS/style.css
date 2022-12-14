@@ -2,13 +2,15 @@
 
 
 /*
-font-family: 'Bungee', cursive;
-font-family: 'Bungee Shade', cursive;
-font-family: 'Fira Code', monospace;
-font-family: 'Fredoka', sans-serif;
-font-family: 'Josefin Sans', sans-serif;
-font-family: 'Montserrat', sans-serif;
+Three main pages-
+#1 index.html (home)
+#2 Dog Posts
+#3 Random posts page
+
+There's a post template called post.html.
+There's 22 Posts.
 */
+
 body {
     background-color: rgba(250, 222, 175, 0.496);
 }
@@ -51,6 +53,7 @@ body {
     border-radius: 10px;
 }
 
+/******************************************************* Posts *************************************************************/
 
 
 .post-text {
