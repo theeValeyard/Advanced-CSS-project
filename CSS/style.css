@@ -7,6 +7,9 @@ font-family: 'Fredoka', sans-serif;
 font-family: 'Josefin Sans', sans-serif;
 font-family: 'Montserrat', sans-serif;
 */
+body {
+    background-color: rgba(250, 222, 175, 0.496);
+}
 
 .card-img {
     width: 100%;
@@ -23,6 +26,7 @@ font-family: 'Montserrat', sans-serif;
 .intro-para {
     background-color: rgb(165, 222, 247);
     padding: 3%;
+    border-radius: 8px;
 }
 .intro-para h1 {
     color: rgb(4, 4, 67);
