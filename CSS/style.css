@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Bungee&family=Bungee+Shade&family=Fira+Code:wght@600&family=Fredoka:wght@300&family=Josefin+Sans&family=Montserrat:wght@500&display=swap'); 
+
+
 /*
 font-family: 'Bungee', cursive;
 font-family: 'Bungee Shade', cursive;
@@ -49,3 +51,11 @@ body {
     border-radius: 10px;
 }
 
+
+
+.post-text {
+    font-family: 'Montserrat', sans-serif; 
+    font-weight: 400;
+    font-size: 20px;
+  
+}
