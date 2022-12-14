@@ -37,7 +37,7 @@ body {
 .gallary {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    grid-gap: .5em;
+    grid-gap: 3em;
     grid-auto-flow: row dense;
     justify-content: space-around;
 }
@@ -46,4 +46,6 @@ body {
     width: 100%;
     height: 100%;
     border: 2px solid rgb(255, 227, 227);
+    border-radius: 10px;
 }
+
