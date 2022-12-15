@@ -12,8 +12,27 @@ There's 22 Posts.
 */
 
 body {
-    background-color: rgba(250, 222, 175, 0.496);
+    background-color: #fadeaf7e;
+    background:
+radial-gradient(rgba(144, 198, 44, 0.1) 15%, transparent 16%) 0 0,
+radial-gradient(rgba(158, 120, 7, 0.057) 15%, transparent 16%) 8px 8px,
+radial-gradient(rgba(202, 140, 25, 0.06) 15%, transparent 20%) 0 1px,
+radial-gradient(rgba(35, 192, 216, 0.053) 15%, transparent 20%) 8px 9px;
+background-color:#fadeaf7e;
+background-size:20px 20px;
+
+    /*
+    background-color:#fadeaf7e;
+    background-image:
+    radial-gradient(rgb(0, 0, 0), rgba(255,255,255,.2) 2px, transparent 40px),
+    radial-gradient(rgb(0, 0, 0), rgba(255,255,255,.15) 1px, transparent 30px),
+    radial-gradient(rgb(51, 38, 38), rgba(255,255,255,.1) 2px, transparent 40px),
+    radial-gradient(rgba(255,255,255,.4), rgba(255,255,255,.1) 2px, transparent 30px);
+    background-size: 550px 550px, 350px 350px, 250px 250px, 150px 150px;
+    background-position: 0 0, 40px 60px, 130px 270px, 70px 100px;
+    */
 }
+
 
 .card-img {
     width: 100%;
