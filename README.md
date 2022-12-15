@@ -1,4 +1,13 @@
 # Advanced-CSS-project
-Step1 - What is it about?
-Step2 - How will it look?
-Step3 - Build
+1. Main Pages-
+    Home
+    Dog Stuff
+    Other Stuff
+    About
+    (Post template)
+
+
+2. Post Pages-
+    Home - Post 1 - 4
+    Dog Stuff - 5 - 12
+    Other Stuff - 13 - 22

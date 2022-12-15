@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Bungee&family=Bungee+Shade&family=Fira+Code:wght@600&family=Fredoka:wght@300&family=Josefin+Sans&family=Montserrat:wght@500&display=swap'); 
+@import url('https://fonts.googleapis.com/css2?family=Bungee&family=Bungee+Shade&family=Fira+Code:wght@600&family=Fredoka:wght@300&family=Josefin+Sans&family=Montserrat:wght@500&display=swap');
 
 
 /*
@@ -18,20 +18,22 @@ body {
 .card-img {
     width: 100%;
     height: auto;
-   
-  }
+
+}
 
 .intro-para h3 {
     font-family: 'Bungee', cursive;
     color: rgb(32, 67, 112);
-   text-align: center;
-   line-height: 1.5em;
+    text-align: center;
+    line-height: 1.5em;
 }
+
 .intro-para {
     background-color: rgb(165, 222, 247);
     padding: 3%;
     border-radius: 8px;
 }
+
 .intro-para h1 {
     color: rgb(4, 4, 67);
 }
@@ -57,8 +59,8 @@ body {
 
 
 .post-text {
-    font-family: 'Montserrat', sans-serif; 
+    font-family: 'Montserrat', sans-serif;
     font-weight: 400;
     font-size: 20px;
-  
+
 }
